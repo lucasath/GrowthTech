@@ -1,0 +1,20 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Teste para vaga de desenvolvedor Back-end na GrothTech.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test/teste.js"
+  },
+  "author": "Lucas Anthony",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "node-fetch": "^2.6.0",
+    "valid-url": "^1.0.9"
+  }
+}
