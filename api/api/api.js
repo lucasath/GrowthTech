@@ -12,9 +12,7 @@ app.use(express.urlencoded({ extended: false }));
 
 
 var server = http.createServer(app);
-server.listen(process.env.PORT, ()=> {
-    console.log('Listening on port ' + process.env.PORT);
-  });
+server.listen(process.env.PORT || 3000);
 
 
   app.get("/api/group", (req,res,)=>{
