@@ -68,5 +68,18 @@ obs: É necessario dar permissão ao grupo de usuario no qual o nginx estará ro
 
 Altere o `server http://localhost:3000;` alterando para a porta a qual a api foi configurada no arquivo `.env` da API.
 
+Configurar o Firewall para liberar as portas da API e front, Ex:
+usando [ufw](https://help.ubuntu.com/community/UFW)
+
+Efetue a liberação das portas do nginx, executando o comando
+
+```bash
+sudo ufw allow http
+```
+caso utilize https:
+```bash
+sudo ufw allow https
+```
+obs: caso utilize https é necessario alterar a porta da api e url base para https no arquivo `.env` do diretorio front. 
 
 Este projeto foi criado para o teste da [GrowthTech](https://growthtech.com.br/).
