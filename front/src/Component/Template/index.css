@@ -1,0 +1,39 @@
+
+.template {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 10px;
+}
+hr{
+    display: block;
+    border: none;
+    height: 2px;
+    background-color:#fff;
+    margin: 0px;
+    width: 100%;
+    box-shadow: 0.1px 0.1px 1px grey;
+}
+
+a {
+    color:darkgray;
+    font-style: inherit;
+    display:inline-block;
+    text-decoration: none;
+    margin-left: 15px;
+
+}
+
+a:hover {
+    color:darkslateblue;
+}
+
+main {
+    display: flex;
+    padding:15px;
+    margin: 0px;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}

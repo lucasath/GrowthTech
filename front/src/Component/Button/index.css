@@ -1,0 +1,10 @@
+.button{
+    border: none;
+    background-color: burlywood;
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px 30px;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-transform: uppercase;
+  }

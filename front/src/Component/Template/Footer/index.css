@@ -1,0 +1,16 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 30px;
+    background: #404750;
+    width: 100%;
+    left:0;
+
+    padding: 10px 0px 0px 0px;
+    font-size: small;
+}
+
+footer .text{
+    text-align: right;
+    margin-right: 20px;
+}

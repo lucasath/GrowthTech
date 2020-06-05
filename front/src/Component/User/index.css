@@ -1,0 +1,40 @@
+.perfil {
+    margin:20px;
+    border:3px solid #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    color:black;
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    min-width: 280px;
+    max-width: 30%;
+    min-height: 350px;
+    padding: 10px;
+    box-shadow: 3px 3px 2px grey;
+}
+
+.perfil .usuario{
+    border:solid;
+    border-color: rgb(240, 239, 232);
+    margin:3px;
+    padding: 3px;
+
+}
+
+.perfil .endereco{
+    border:solid;
+    border-color: rgb(240, 239, 232);
+    margin:3px;
+    padding: 3px;
+
+}
+
+.perfil .empresa{
+    border:solid;
+    border-color: rgb(240, 239, 232);
+    margin:3px;
+    padding: 3px;
+
+}

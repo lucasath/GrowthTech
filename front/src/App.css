@@ -1,0 +1,7 @@
+
+.App {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 300px;
+    -webkit-box-align:center;
+}

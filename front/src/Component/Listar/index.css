@@ -1,0 +1,23 @@
+.box{
+    display: flex;
+    flex-flow: row wrap;
+    flex:1;
+    margin-bottom: 10px;
+
+}
+
+
+.listar{
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lermais{
+    overflow:none;
+    text-align: right;
+    margin-top: auto;
+    margin-right: 10px;
+}
+
